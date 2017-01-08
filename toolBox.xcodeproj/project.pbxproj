@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C130D8DF1E22A13400F59397 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C130D8DE1E22A13400F59397 /* AppDelegate.swift */; };
-		C130D8E11E22A13400F59397 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C130D8E01E22A13400F59397 /* ViewController.swift */; };
-		C130D8E41E22A13400F59397 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C130D8E21E22A13400F59397 /* Main.storyboard */; };
-		C130D8E61E22A13400F59397 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C130D8E51E22A13400F59397 /* Assets.xcassets */; };
-		C130D8E91E22A13400F59397 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C130D8E71E22A13400F59397 /* LaunchScreen.storyboard */; };
 		C130D8F41E22A13400F59397 /* toolBoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C130D8F31E22A13400F59397 /* toolBoxTests.swift */; };
 		C130D8FF1E22A13400F59397 /* toolBoxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C130D8FE1E22A13400F59397 /* toolBoxUITests.swift */; };
+		C130D9311E22A38C00F59397 /* AddThingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C130D9231E22A38C00F59397 /* AddThingTableViewController.swift */; };
+		C130D9321E22A38C00F59397 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C130D9241E22A38C00F59397 /* AppDelegate.swift */; };
+		C130D9331E22A38C00F59397 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C130D9251E22A38C00F59397 /* Assets.xcassets */; };
+		C130D9341E22A38C00F59397 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C130D9271E22A38C00F59397 /* LaunchScreen.storyboard */; };
+		C130D9351E22A38C00F59397 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C130D9291E22A38C00F59397 /* Main.storyboard */; };
+		C130D9371E22A38C00F59397 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C130D92C1E22A38C00F59397 /* Info.plist */; };
+		C130D9381E22A38C00F59397 /* ThingsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C130D92D1E22A38C00F59397 /* ThingsDetailViewController.swift */; };
+		C130D9391E22A38C00F59397 /* ThingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C130D92E1E22A38C00F59397 /* ThingsTableViewController.swift */; };
+		C130D93A1E22A38C00F59397 /* ThingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C130D92F1E22A38C00F59397 /* ThingTableViewCell.swift */; };
+		C130D93B1E22A38C00F59397 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C130D9301E22A38C00F59397 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,18 +40,22 @@
 
 /* Begin PBXFileReference section */
 		C130D8DB1E22A13400F59397 /* toolBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = toolBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C130D8DE1E22A13400F59397 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C130D8E01E22A13400F59397 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C130D8E31E22A13400F59397 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C130D8E51E22A13400F59397 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C130D8E81E22A13400F59397 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		C130D8EA1E22A13400F59397 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C130D8EF1E22A13400F59397 /* toolBoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = toolBoxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C130D8F31E22A13400F59397 /* toolBoxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toolBoxTests.swift; sourceTree = "<group>"; };
 		C130D8F51E22A13400F59397 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C130D8FA1E22A13400F59397 /* toolBoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = toolBoxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C130D8FE1E22A13400F59397 /* toolBoxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toolBoxUITests.swift; sourceTree = "<group>"; };
 		C130D9001E22A13400F59397 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C130D9231E22A38C00F59397 /* AddThingTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddThingTableViewController.swift; path = "../../封存/Demo/AddThingTableViewController.swift"; sourceTree = "<group>"; };
+		C130D9241E22A38C00F59397 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "../../封存/Demo/AppDelegate.swift"; sourceTree = "<group>"; };
+		C130D9251E22A38C00F59397 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../封存/Demo/Assets.xcassets"; sourceTree = "<group>"; };
+		C130D9281E22A38C00F59397 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C130D92A1E22A38C00F59397 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		C130D92C1E22A38C00F59397 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../../封存/Demo/Info.plist"; sourceTree = "<group>"; };
+		C130D92D1E22A38C00F59397 /* ThingsDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ThingsDetailViewController.swift; path = "../../封存/Demo/ThingsDetailViewController.swift"; sourceTree = "<group>"; };
+		C130D92E1E22A38C00F59397 /* ThingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ThingsTableViewController.swift; path = "../../封存/Demo/ThingsTableViewController.swift"; sourceTree = "<group>"; };
+		C130D92F1E22A38C00F59397 /* ThingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ThingTableViewCell.swift; path = "../../封存/Demo/ThingTableViewCell.swift"; sourceTree = "<group>"; };
+		C130D9301E22A38C00F59397 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "../../封存/Demo/ViewController.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +106,17 @@
 		C130D8DD1E22A13400F59397 /* toolBox */ = {
 			isa = PBXGroup;
 			children = (
-				C130D8DE1E22A13400F59397 /* AppDelegate.swift */,
-				C130D8E01E22A13400F59397 /* ViewController.swift */,
-				C130D8E21E22A13400F59397 /* Main.storyboard */,
-				C130D8E51E22A13400F59397 /* Assets.xcassets */,
-				C130D8E71E22A13400F59397 /* LaunchScreen.storyboard */,
-				C130D8EA1E22A13400F59397 /* Info.plist */,
+				C130D9271E22A38C00F59397 /* LaunchScreen.storyboard */,
+				C130D9291E22A38C00F59397 /* Main.storyboard */,
+				C130D9231E22A38C00F59397 /* AddThingTableViewController.swift */,
+				C130D9241E22A38C00F59397 /* AppDelegate.swift */,
+				C130D9251E22A38C00F59397 /* Assets.xcassets */,
+				C130D9261E22A38C00F59397 /* Base.lproj */,
+				C130D92C1E22A38C00F59397 /* Info.plist */,
+				C130D92D1E22A38C00F59397 /* ThingsDetailViewController.swift */,
+				C130D92E1E22A38C00F59397 /* ThingsTableViewController.swift */,
+				C130D92F1E22A38C00F59397 /* ThingTableViewCell.swift */,
+				C130D9301E22A38C00F59397 /* ViewController.swift */,
 			);
 			path = toolBox;
 			sourceTree = "<group>";
@@ -123,6 +137,14 @@
 				C130D9001E22A13400F59397 /* Info.plist */,
 			);
 			path = toolBoxUITests;
+			sourceTree = "<group>";
+		};
+		C130D9261E22A38C00F59397 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Base.lproj;
+			path = "../../封存/Demo/Base.lproj";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +215,7 @@
 				TargetAttributes = {
 					C130D8DA1E22A13400F59397 = {
 						CreatedOnToolsVersion = 8.1;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
 					C130D8EE1E22A13400F59397 = {
@@ -232,9 +255,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C130D8E91E22A13400F59397 /* LaunchScreen.storyboard in Resources */,
-				C130D8E61E22A13400F59397 /* Assets.xcassets in Resources */,
-				C130D8E41E22A13400F59397 /* Main.storyboard in Resources */,
+				C130D9371E22A38C00F59397 /* Info.plist in Resources */,
+				C130D9351E22A38C00F59397 /* Main.storyboard in Resources */,
+				C130D9331E22A38C00F59397 /* Assets.xcassets in Resources */,
+				C130D9341E22A38C00F59397 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +283,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C130D8E11E22A13400F59397 /* ViewController.swift in Sources */,
-				C130D8DF1E22A13400F59397 /* AppDelegate.swift in Sources */,
+				C130D93A1E22A38C00F59397 /* ThingTableViewCell.swift in Sources */,
+				C130D9381E22A38C00F59397 /* ThingsDetailViewController.swift in Sources */,
+				C130D9321E22A38C00F59397 /* AppDelegate.swift in Sources */,
+				C130D9311E22A38C00F59397 /* AddThingTableViewController.swift in Sources */,
+				C130D93B1E22A38C00F59397 /* ViewController.swift in Sources */,
+				C130D9391E22A38C00F59397 /* ThingsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,20 +324,22 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C130D8E21E22A13400F59397 /* Main.storyboard */ = {
+		C130D9271E22A38C00F59397 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C130D8E31E22A13400F59397 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		C130D8E71E22A13400F59397 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C130D8E81E22A13400F59397 /* Base */,
+				C130D9281E22A38C00F59397 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = "../../封存/Demo/Base.lproj";
+			sourceTree = "<group>";
+		};
+		C130D9291E22A38C00F59397 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C130D92A1E22A38C00F59397 /* Base */,
+			);
+			name = Main.storyboard;
+			path = "../../封存/Demo/Base.lproj";
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -412,10 +442,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = toolBox/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ntou.toolBox;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "toolBox/toolBox-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -424,10 +457,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = toolBox/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ntou.toolBox;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "toolBox/toolBox-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
